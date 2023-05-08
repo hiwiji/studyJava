@@ -1,0 +1,26 @@
+
+public class VarEx3 {
+
+	public static void main(String[] args) {
+		
+		final int score = 100; // = 100;
+	//	score = 200;
+		
+		boolean power = true;
+		
+		byte b = 127;
+		
+		int oct = 010; //
+		int hex = 0x10;
+		
+		long l = 1000_000_000;
+		
+		System.out.println(oct);
+		System.out.println(hex);
+		
+		
+		System.out.println(score);
+
+	}
+
+}
